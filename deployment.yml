@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: Task Tracker-deployment
+  namespace: default
+  labels:
+        app: web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: getimage
+          image: 628640267234.dkr.ecr.ap-southeast-1.amazonaws.com/eks-demo:latest
+          ports:
+            - containerPort: 5000
+      

@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "text": "eeeeeee",
+      "day": "gggggggg",
+      "reminder": true,
+      "id": 2
+    },
+    {
+      "text": "rrrrrrr",
+      "day": "uuuuuuu",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "text": "llllllll",
+      "day": "kkkkkkkkkk",
+      "reminder": false,
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
